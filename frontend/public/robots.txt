@@ -1,0 +1,30 @@
+# robots.txt for Anantapur Football Club
+# https://anantapurfc.com/robots.txt
+
+# Allow all crawlers to access public pages
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /gallery
+Allow: /players
+Allow: /privacy-policy
+Allow: /terms-and-conditions
+
+# Disallow crawling of protected/admin routes
+Disallow: /login
+Disallow: /forgot-password
+Disallow: /reset-password/
+Disallow: /change-password
+Disallow: /coach-portal
+Disallow: /admin-management
+Disallow: /manage-players
+Disallow: /manage-tournaments
+
+# Disallow crawling of backend API
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://anantapurfc.com/sitemap.xml
+
+# Crawl-delay for all bots (optional, helps reduce server load)
+Crawl-delay: 1

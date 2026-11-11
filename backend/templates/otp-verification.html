@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="color-scheme" content="light only">
+  <meta name="supported-color-schemes" content="light only">
+  <title>OTP Verification - Anantapur FC</title>
+  <!--[if mso]>
+  <style>
+    table { border-collapse: collapse; }
+    td { font-family: Arial, sans-serif; }
+  </style>
+  <![endif]-->
+  <style>
+    :root { color-scheme: light only; supported-color-schemes: light only; }
+    /* Dark mode overrides to keep OTP box always visible */
+    [data-ogsc] .otp-box { background-color: #1E293B !important; }
+    [data-ogsc] .otp-text { color: #FFFFFF !important; }
+    [data-ogsb] .otp-box { background-color: #1E293B !important; }
+    [data-ogsb] .otp-text { color: #FFFFFF !important; }
+    u + .body .otp-box { background-color: #1E293B !important; }
+    u + .body .otp-text { color: #FFFFFF !important; }
+    @media (prefers-color-scheme: dark) {
+      .otp-box { background-color: #1E293B !important; }
+      .otp-text { color: #FFFFFF !important; }
+    }
+  </style>
+</head>
+<body class="body" style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #F1F5F9; -webkit-font-smoothing: antialiased;">
+
+  <!-- Inbox preview text -->
+  <div style="display: none; max-height: 0; overflow: hidden; font-size: 1px; line-height: 1px; color: #F1F5F9;">
+    Your Anantapur FC verification code. Do not share this code with anyone.
+  </div>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#F1F5F9" role="presentation">
+    <tr>
+      <td align="center" style="padding: 32px 16px;">
+        <table style="max-width: 560px; width: 100%;" width="560" border="0" cellspacing="0" cellpadding="0" role="presentation">
+
+          <!-- Red accent bar -->
+          <tr>
+            <td style="height: 4px; background: linear-gradient(90deg, #DC2626 0%, #991B1B 100%); border-radius: 8px 8px 0 0; font-size: 0; line-height: 0;">&nbsp;</td>
+          </tr>
+
+          <!-- White card body -->
+          <tr>
+            <td style="background-color: #FFFFFF; border-left: 1px solid #E2E8F0; border-right: 1px solid #E2E8F0;">
+
+              <!-- Brand header -->
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                <tr>
+                  <td style="padding: 32px 40px 20px; text-align: center;">
+                    <table border="0" cellspacing="0" cellpadding="0" role="presentation" align="center">
+                      <tr>
+                        <td style="width: 48px; height: 48px; background-color: #DC2626; border-radius: 50%; text-align: center; vertical-align: middle;">
+                          <span style="color: #FFFFFF; font-size: 20px; font-weight: 800; line-height: 48px; font-family: Georgia, serif;">A</span>
+                        </td>
+                      </tr>
+                    </table>
+                    <p style="margin: 14px 0 0; font-size: 18px; font-weight: 700; color: #0F172A; letter-spacing: -0.3px;">Anantapur FC</p>
+                    <p style="margin: 2px 0 0; font-size: 11px; color: #94A3B8; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 500;">Pocket Soccer Scout</p>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Divider -->
+              <tr><td style="padding: 0 40px;"><div style="height: 1px; background-color: #F1F5F9;"></div></td></tr>
+
+              <!-- Heading -->
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                <tr>
+                  <td style="padding: 24px 40px 8px; text-align: center;">
+                    <h2 style="margin: 0; font-size: 20px; font-weight: 700; color: #0F172A;">Verification Code</h2>
+                    <p style="margin: 6px 0 0; font-size: 14px; color: #64748B;">Use this code to verify your identity</p>
+                  </td>
+                </tr>
+              </table>
+
+              <!--
+                OTP CODE BOX
+                Dark navy background (#1E293B) + white text (#FFFFFF)
+                This combination stays readable in:
+                  - Light mode: dark box on white card = high contrast
+                  - Dark mode (color inversion): inverted dark becomes light bg, inverted white becomes dark text = still readable
+                  - Dark mode (no inversion): dark box stays dark, white text stays white = same as light mode
+                  - Any custom theme: forced via !important CSS overrides above
+              -->
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                <tr>
+                  <td style="padding: 16px 40px 8px; text-align: center;">
+                    <div class="otp-box" style="background-color: #1E293B; border-radius: 12px; padding: 28px 32px; display: inline-block; border: 2px solid #334155; min-width: 260px;">
+                      <p style="margin: 0 0 8px; font-size: 10px; color: #94A3B8; text-transform: uppercase; letter-spacing: 2px; font-weight: 600;">One-Time Password</p>
+                      <p class="otp-text" style="margin: 0; font-size: 38px; font-weight: 800; color: #FFFFFF; letter-spacing: 10px; font-family: 'Courier New', Courier, monospace; line-height: 1.2;">{{OTP_CODE}}</p>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Expiry badge -->
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                <tr>
+                  <td style="padding: 10px 40px 0; text-align: center;">
+                    <table border="0" cellspacing="0" cellpadding="0" role="presentation" align="center">
+                      <tr>
+                        <td style="background-color: #FEF2F2; border-radius: 20px; padding: 5px 14px;">
+                          <span style="font-size: 12px; color: #DC2626; font-weight: 600;">Valid for {{OTP_EXPIRY_MINUTES}} minutes</span>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Message body -->
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                <tr>
+                  <td style="padding: 24px 40px 0;">
+                    <p style="margin: 0 0 10px; font-size: 15px; font-weight: 600; color: #0F172A;">Hello {{USER_NAME}},</p>
+                    <p style="margin: 0; font-size: 14px; color: #475569; line-height: 1.7;">
+                      You requested a password change. Please enter the verification code above on the password change page to confirm your identity. This code can only be used once.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Warning: Do not share -->
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                <tr>
+                  <td style="padding: 20px 40px 0;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #FFF7ED; border-radius: 8px; border-left: 3px solid #F97316;">
+                      <tr>
+                        <td style="padding: 14px 16px;">
+                          <p style="margin: 0 0 4px; font-size: 13px; font-weight: 700; color: #9A3412;">Do Not Share This Code</p>
+                          <p style="margin: 0; font-size: 13px; color: #7C2D12; line-height: 1.5;">
+                            Anantapur FC staff will never ask for this code by phone, text, or email. If someone requests it, do not provide it.
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Didn't request -->
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                <tr>
+                  <td style="padding: 14px 40px 32px;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation" style="background-color: #F8FAFC; border-radius: 8px;">
+                      <tr>
+                        <td style="padding: 14px 16px;">
+                          <p style="margin: 0; font-size: 13px; color: #64748B; line-height: 1.5;">
+                            <strong style="color: #475569;">Did not request this?</strong> You can safely ignore this email. Your account remains secure. If you suspect unauthorized access, change your password immediately.
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="background-color: #0F172A; padding: 24px 40px; border-radius: 0 0 8px 8px;">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+                <tr>
+                  <td style="text-align: center;">
+                    <p style="margin: 0; font-size: 14px; font-weight: 600; color: #E2E8F0;">Anantapur Football Club</p>
+                    <p style="margin: 4px 0 0; font-size: 12px; color: #64748B;">Anantapur, Andhra Pradesh, India</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 14px; text-align: center;">
+                    <div style="height: 1px; background-color: #1E293B;"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 14px; text-align: center;">
+                    <p style="margin: 0; font-size: 11px; color: #475569; line-height: 1.5;">
+                      This is an automated security notification. Do not reply to this email.
+                    </p>
+                    <p style="margin: 6px 0 0; font-size: 11px; color: #334155;">
+                      &copy; {{CURRENT_YEAR}} Anantapur FC. All rights reserved.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
